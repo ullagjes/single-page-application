@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    height: 100px;
+    width: 100vw;
+    /* bruker hele bredden på skjermen */
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+nav {
+    height: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    margin: 0 40px;
+}
+
+a {
+    padding: 20px;
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+a:hover {
+    color: gold;
+    /*Gir farge når du holder pila over lenken */
+}
+
+main {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    height: 100vh;
+    overflow: auto;
+}
+
+
+#orange {
+    background-color: orange;
+}
+
+#pink {
+    background-color: pink;
+}
+
+#forrestgreen {
+    background-color: forestgreen; 
+}
+
+section {
+    height: 100vh;
+    scroll-snap-align: center;
+}
