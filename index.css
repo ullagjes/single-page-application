@@ -30,7 +30,7 @@ a {
 
 a:hover {
     color: gold;
-    /*Gir farge når du holder pila over lenken */
+    /*Gir farge når du holder pila over lenken*/
 }
 
 main {
@@ -40,17 +40,32 @@ main {
     overflow: auto;
 }
 
+p {
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
 
 #orange {
-    background-color: orange;
+    background-image: url("./images/beckham.jpg");
+    background-size: cover;
+    background-position: top right;
+    padding-top: 170px;
+    padding-left: 100px;
+    box-sizing: border-box;
 }
 
 #pink {
-    background-color: pink;
+    background-image: url("./images/rashford.jpeg");
+    background-size: cover;
+    background-position: top right;
+    /*sier noe om hva på bildet som skal vektlegges når man endrer på nettleseren*/
 }
 
 #forrestgreen {
-    background-color: forestgreen; 
+    background-image: url("./images/zlatan.jpeg");
+    background-size: cover; 
 }
 
 section {
